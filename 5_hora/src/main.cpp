@@ -15,11 +15,11 @@ long int timeOffset = 0;
 String getLocalTime();
 
 // Server creado
-IPAddress server(192, 168, 137, 36);
+IPAddress server(192, 168, 137, 1);
 const int SERVER_PORT = 4321;
 
 // Cliente
-bool clientEnviando = false;
+bool clientEnviando = true;
 WiFiClient client;
 
 void setup()
